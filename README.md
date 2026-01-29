@@ -87,45 +87,6 @@ Below are the main interfaces included in the Clean App:
 
 ---
 
-## 🗂️ Firebase Firestore Collections
-
-### 📌 Vacancy Collection: `Vacancy`
-| Field Name | Description |
-|----------|-------------|
-| Category | Vacancy category (Cleaning/Laundry/etc.) |
-| Owner Name | Vacancy owner name |
-| Description | Job description |
-| Location | Job location |
-
-### 📌 Cleaning Services Collection: `Clean`
-| Field Name | Description |
-|----------|-------------|
-| Location | Service location |
-| Available Date | Available date |
-| Available Time | Available time |
-| Description | Service description |
-
-### 📌 Notification Collection: `Notification`
-Used for cleaner requests sent to vacancy owners.
-
-Common fields:
-- `customerId`
-- `cleanerId`
-- `vacancyId`
-- `status` (Pending / Accepted / Finished)
-
-### 📌 Review Collection: `Review`
-Used to show reviews for cleaners (based on accepted requests).
-
-Common fields:
-- `customerId`
-- `cleanerId`
-- `rating`
-- `comment`
-- `date`
-
----
-
 ## ⚙️ Installation Guide (GitHub)
 
 ### Clone the Repository
